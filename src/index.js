@@ -1,4 +1,3 @@
-import Glide from '@glidejs/glide'
 import './scss/main.scss';
-
-new Glide('.glide').mount();
+import { slider } from './js/slider.js';
+import { sliderMenu } from './js/slider-nav.js';

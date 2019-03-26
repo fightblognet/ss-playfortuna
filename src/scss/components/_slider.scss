@@ -3,7 +3,7 @@
 .slider {
     .glide {
         &__img {
-            max-width: 100%;
+            width: 100%;
             height: auto;
         }
 
@@ -15,13 +15,15 @@
             border-radius: 8px;
             background: #13100e;
             border: 1px solid #797979;
-            width: 18px;
-            height: 18px;
+            width: 20px;
+            height: 20px;
             position: relative;
+            margin: 0 10px;
+            border-radius: 50%;
 
             &:hover,
             &:focus {
-                border: 1px solid #797979;
+                border: 1px solid #fdc061;
                 background: #13100e;
             }
 
@@ -31,10 +33,10 @@
                 top: 3px;
                 left: 3px;
                 content: "";
-                width: 10px;
-                height: 10px;
+                width: 12px;
+                height: 12px;
                 background: #fdc061;
-                border-radius: 5px;
+                border-radius: 50%;
             }
 
             &--active {
@@ -45,10 +47,10 @@
                     top: 3px;
                     left: 3px;
                     content: "";
-                    width: 10px;
-                    height: 10px;
+                    width: 12px;
+                    height: 12px;
                     background: #fdc061;
-                    border-radius: 5px;
+                    border-radius: 50%;
                 }
             }
         }
