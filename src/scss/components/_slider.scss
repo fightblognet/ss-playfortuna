@@ -1,0 +1,62 @@
+@import 'variables';
+
+.slider {
+    .glide {
+        &__img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        &__slides {
+            margin: 0;
+        }
+
+        &__bullet {
+            border-radius: 8px;
+            background: #13100e;
+            border: 1px solid #797979;
+            width: 18px;
+            height: 18px;
+            position: relative;
+
+            &:hover,
+            &:focus {
+                border: 1px solid #797979;
+                background: #13100e;
+            }
+
+            &:hover:after,
+            &:focus:after {
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                content: "";
+                width: 10px;
+                height: 10px;
+                background: #fdc061;
+                border-radius: 5px;
+            }
+
+            &--active {
+                background: #13100e;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 3px;
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    background: #fdc061;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        & {
+            padding-top: 132px;
+        }
+    }
+}
