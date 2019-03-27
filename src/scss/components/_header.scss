@@ -27,6 +27,7 @@
             width: 100%;
             box-shadow: 0 0 20px #13100e;
             border-bottom: 10px solid $line-color;
+            z-index: 100;
 
             &__wrapper {
                 display: block;
