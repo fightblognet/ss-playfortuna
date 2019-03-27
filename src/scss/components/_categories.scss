@@ -61,14 +61,14 @@
         &--active {
             border: 1px solid #fdc061;
             border-bottom: 2px solid #13100e;
-            pointer-events: none;
             box-shadow: 0px 3px 0px 0px #13100e;
-
+            pointer-events: none;
         }
 
         &:hover #nav-categories__img,
-        &:hover .nav-categories__text {
-            fill: #13100e;
+        &:hover .nav-categories__text,
+        &:hover .nav-categories__img {
+            fill: #13100e !important;
             color: #13100e;
         }
     }
@@ -76,6 +76,11 @@
     &__img {
         width: 46px;
         height: 27px;
+        fill: $gold-color !important;
+
+        &:hover {
+            fill: #13100e !important;
+        }
     }
 
     &__text {
@@ -90,7 +95,7 @@
 }
 
 #nav-categories__img {
-    fill: $gold-color
+    fill: $gold-color !important;
 }
 
 .glide-menu {
