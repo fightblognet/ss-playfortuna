@@ -1,0 +1,152 @@
+@import 'variables';
+
+.providers {
+    border-top: 20px solid $line-color;
+
+    &__inner {
+        margin: 0 auto;
+        max-width: 1280px;
+        min-width: 320px;
+
+        @media (max-width: 1300px) {
+            & {
+                width: 96%;
+            }
+        }
+
+    }
+}
+
+.providers-list {
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        display: block;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        height: 32px;
+        width: 92px;
+        background-image: url('../img/sprite.png');
+        margin: 0 20px 40px 20px;
+
+        &--quickfire {
+            background-position: 0 -3785px;
+        }
+
+        &--netent {
+            background-position: 0 -3112px;
+        }
+
+        &--yggdrasil {
+            background-position: 0 -4964px;
+            height: 32px;
+            width: 132px;
+        }
+
+        &--quickspin {
+            background-position: 0 -3819px;
+            height: 24px;
+            width: 100px;
+        }
+
+        &--pushgaming {
+            background-position: 0 -3720px;
+            height: 15px;
+            width: 140px;
+        }
+
+        &--betsoft {
+            background-position: 0 -556px;
+            height: 32px;
+            width: 84px;
+        }
+
+        &--relaxgaming {
+            background-position: 0 -3872px;
+            height: 32px;
+            width: 103px;
+        }
+
+        &--nolimitcity {
+            background-position: 0 -3277px;
+            height: 32px;
+            width: 119px;
+        }
+
+        &--elkstudios {
+            background-position: 0 -1156px;
+            height: 32px;
+            width: 81px;
+        }
+
+        &--thunderkick {
+            background-position: 0 -4341px;
+            height: 32px;
+            width: 103px;
+        }
+
+        &--playngo {
+            background-position: 0 -3519px;
+            height: 32px;
+            width: 116px;
+        }
+
+        &--amatic {
+            background-position: 0 0;
+            height: 32px;
+            width: 104px;
+        }
+
+        &--bigtimegaming {
+            background-position: 0 -590px;
+            height: 32px;
+            width: 127px;
+        }
+
+        &--endorphina {
+            background-position: 0 -1360px;
+            height: 48px;
+            width: 105px;
+        }
+
+        &--blueprintgaming {
+            background-position: 0 -634px;
+            height: 32px;
+            width: 137px;
+        }
+
+        &--habanero {
+            background-position: 0 -1680px;
+            height: 28px;
+            width: 136px;
+        }
+
+        &--booongo {
+            background-position: 0 -668px;
+            height: 32px;
+            width: 132px;
+        }
+
+        &--evolutiongaming {
+            background-position: 0 -1428px;
+            height: 18px;
+            width: 140px;
+        }
+
+        &--redtiger {
+            background-position: 0 -3845px;
+            height: 25px;
+            width: 132px;
+        }
+
+        &--itemplaytech {
+            background-position: 0 -3553px;
+            height: 29px;
+            width: 132px;
+        }
+    }
+}
