@@ -1,0 +1,9 @@
+@import 'variables';
+
+.footer{
+    text-align: center;
+    padding: 10px 0 50px;
+    &__text {
+        font-size: 1.3rem;
+    }
+}
